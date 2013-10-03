@@ -43,7 +43,7 @@ def img2sound(imageData, maxFrequency, maxVolume, sampleFrequency, windowHop, wi
         soundOutDataPack+=struct.pack('h',val)
 
     return soundOutDataPack
-
+# don't understand here##################
 def main():
 
 #    soundIn=wave.open('bird.wav')
